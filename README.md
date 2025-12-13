@@ -22,8 +22,6 @@
 - Improving backend logic & database design  
 - Learning clean code & best practices
 
-
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kalyzet&show_icons=true)
 
 <img src="https://readme-typing-svg.herokuapp.com?lines=Informatics+Engineering+Student;Aspiring+Software+Engineer;Always+Learning+New+Things" />
