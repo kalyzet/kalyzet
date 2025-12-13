@@ -12,6 +12,9 @@
 <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Python-blue?logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white"/>
+<img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white"/>
+
 
 ## 🎯 Currently Focused On
 - Building web apps with Laravel & React  
