@@ -26,4 +26,4 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?lines=Informatics+Engineering+Student;Aspiring+Software+Engineer;Always+Learning+New+Things" />
 
-<img src="https://komarev.com/ghpvc/?username=USERNAME&color=blue"/>
+<img src="https://komarev.com/ghpvc/?username=kalyzet&color=blue"/>
