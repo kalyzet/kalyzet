@@ -22,8 +22,14 @@
 - Improving backend logic & database design  
 - Learning clean code & best practices
 
+
+
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kalyzet&show_icons=true)
 
 <img src="https://readme-typing-svg.herokuapp.com?lines=Informatics+Engineering+Student;Aspiring+Software+Engineer;Always+Learning+New+Things" />
 
-<img src="https://komarev.com/ghpvc/?username=kalyzet&color=blue"/>
+## 🎮 Android Game — Golden Egg Guardian
+<img src="https://github.com/user-attachments/assets/0d2af4e1-cfa4-409b-aa74-14aeca65ce9e" width="250"/>
+
+🔹 Built with Kotlin  
+🔹 Simple 2D defense game
