@@ -18,7 +18,7 @@
 </p>
 
 ## 🎯 Currently Focused On
-- Building web apps with Laravel & React  
+- Building web apps with Laravel & Next.js  
 - Improving backend logic & database design  
 - Learning clean code & best practices
 
