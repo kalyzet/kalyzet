@@ -1,4 +1,4 @@
-# What's up! I'm Haikal 👋  
+# What's up! I'm Haikal 👋😎  
 💻 Informatics Engineering Student | Aspiring Software Engineer
 
 "Ngoding dulu lek 😹"
