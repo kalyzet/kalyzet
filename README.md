@@ -4,10 +4,11 @@
 "Ngoding dulu lek 😹"
 
 - 🎓 Undergraduate Informatics Engineering Student  
-- 🌱 Currently learning Laravel, React, Flask  
+- 🌱 Currently learning Laravel, Next.js, Flask  
 - 🚀 Passionate about building useful software
 
 ## 🧠 Languages
+Languages I use for web, mobile, and general programming:
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white"/>
