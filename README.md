@@ -23,7 +23,7 @@ Languages I use for web, mobile, and general programming:
 - Improving backend logic & database design  
 - Learning clean code & best practices
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kalyzet&show_icons=true&cache_seconds=0)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kalyzet&show_icons=true&theme=radical&cache_seconds=0)
 
 <img src="https://readme-typing-svg.herokuapp.com?lines=Informatics+Engineering+Student;Aspiring+Software+Engineer;Always+Learning+New+Things" />
 
