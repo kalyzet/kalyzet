@@ -31,4 +31,4 @@ Languages I use for web, mobile, and general programming:
 <img src="https://github.com/user-attachments/assets/0d2af4e1-cfa4-409b-aa74-14aeca65ce9e" width="250"/><br>
 🔗 Repository: https://github.com/kalyzet/AndroidGame-OneDefender<br>
 🔹 Built with Kotlin  
-🔹 Simple 2D defense game
+🔹 Simple 2D Defense Game
