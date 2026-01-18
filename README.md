@@ -4,7 +4,7 @@
 "Ngoding dulu lek 😹"
 
 - 🎓 Undergraduate Informatics Engineering Student  
-- 🌱 Currently learning Laravel, Next.js, Flask  
+- 🌱 Currently learning Laravel, Next.js, Flutter  
 - 🚀 Passionate about building useful software
 
 ## 🧠 Languages
