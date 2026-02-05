@@ -15,7 +15,7 @@ Languages I use for web, mobile, and general programming:
   <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Python-blue?logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenJDK-000000?logo=openjdk&logoColor=white"/>
 </p>
 
 ## 🎯 Currently Focused On
