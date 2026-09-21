@@ -1,192 +1,533 @@
-<svg width="100%" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg
+  width="100%"
+  height="360"
+  viewBox="0 0 1200 360"
+  xmlns="http://www.w3.org/2000/svg">
+
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+
+    <!-- Background -->
+    <linearGradient
+      id="bg"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%">
+
       <stop offset="0%" stop-color="#E0F2FE"/>
-      <stop offset="50%" stop-color="#BAE6FD"/>
+      <stop offset="55%" stop-color="#BAE6FD"/>
       <stop offset="100%" stop-color="#7DD3FC"/>
+
     </linearGradient>
 
-```
-<linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%" stop-color="#0284C7"/>
-  <stop offset="50%" stop-color="#06B6D4"/>
-  <stop offset="100%" stop-color="#0284C7"/>
-</linearGradient>
+    <!-- Wave -->
+    <linearGradient
+      id="wave"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="0%">
 
-<filter id="shadow">
-  <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
-</filter>
-```
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+
+    </linearGradient>
+
+    <!-- Quote card -->
+    <linearGradient
+      id="card"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%">
+
+      <stop
+        offset="0%"
+        stop-color="#FFFFFF"
+        stop-opacity="0.75"/>
+
+      <stop
+        offset="100%"
+        stop-color="#E0F2FE"
+        stop-opacity="0.55"/>
+
+    </linearGradient>
+
+    <!-- Shadow -->
+    <filter id="shadow">
+
+      <feDropShadow
+        dx="0"
+        dy="5"
+        stdDeviation="8"
+        flood-opacity="0.14"/>
+
+    </filter>
+
+    <!-- Hero clip -->
+    <clipPath id="heroClip">
+
+      <rect
+        width="1200"
+        height="360"
+        rx="24"/>
+
+    </clipPath>
+
+    <!-- Software Developer typing clip -->
+    <clipPath id="softwareClip">
+
+      <rect
+        x="488"
+        y="135"
+        width="0"
+        height="40">
+
+        <animate
+          attributeName="width"
+          values="0;224;224;0;0"
+          keyTimes="0;0.21;0.37;0.50;1"
+          dur="8s"
+          repeatCount="indefinite"/>
+
+      </rect>
+
+    </clipPath>
+
+    <!-- Informatics Engineering Student typing clip -->
+    <clipPath id="studentClip">
+
+      <rect
+        x="389"
+        y="135"
+        width="0"
+        height="40">
+
+        <animate
+          attributeName="width"
+          values="0;422;422;0;0"
+          keyTimes="0.50;0.71;0.87;0.99;1"
+          dur="8s"
+          repeatCount="indefinite"/>
+
+      </rect>
+
+    </clipPath>
 
   </defs>
 
+
   <!-- Background -->
 
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect
+    width="1200"
+    height="360"
+    rx="24"
+    fill="url(#bg)"/>
 
-  <!-- Decorative floating dots -->
 
-  <circle cx="100" cy="70" r="5" fill="#0284C7" opacity="0.35">
-    <animate attributeName="cy" values="70;55;70" dur="3s" repeatCount="indefinite"/>
-  </circle>
+  <g clip-path="url(#heroClip)">
 
-  <circle cx="1080" cy="80" r="7" fill="#06B6D4" opacity="0.35">
-    <animate attributeName="cy" values="80;100;80" dur="4s" repeatCount="indefinite"/>
-  </circle>
 
-  <circle cx="1030" cy="245" r="4" fill="#0284C7" opacity="0.3">
-    <animate attributeName="cx" values="1030;1050;1030" dur="3.5s" repeatCount="indefinite"/>
-  </circle>
+    <!-- Floating decorative elements -->
 
-  <!-- Main title -->
+    <circle
+      cx="105"
+      cy="70"
+      r="5"
+      fill="#0284C7"
+      opacity="0.35">
 
-<text
- x="600"
- y="105"
- text-anchor="middle"
- font-family="Arial, Helvetica, sans-serif"
- font-size="48"
- font-weight="800"
- fill="#0F172A">
-Hi, I'm Haikal 👋 <animateTransform
-   attributeName="transform"
-   type="translate"
-   values="0 0; 0 -4; 0 0"
-   dur="3s"
-   repeatCount="indefinite"/> </text>
+      <animate
+        attributeName="cy"
+        values="70;52;70"
+        dur="3s"
+        repeatCount="indefinite"/>
 
-  <!-- Accent line -->
+    </circle>
 
-<rect
- x="480"
- y="125"
- width="240"
- height="4"
- rx="2"
- fill="url(#glow)"> <animate
-   attributeName="width"
-   values="180;260;180"
-   dur="3s"
-   repeatCount="indefinite"/> <animate
-   attributeName="x"
-   values="510;470;510"
-   dur="3s"
-   repeatCount="indefinite"/> </rect>
 
-  <!-- Developer subtitle -->
+    <circle
+      cx="1090"
+      cy="75"
+      r="7"
+      fill="#06B6D4"
+      opacity="0.35">
 
-<text
- x="600"
- y="175"
- text-anchor="middle"
- font-family="JetBrains Mono, monospace"
- font-size="22"
- font-weight="600"
- fill="#0369A1">
+      <animate
+        attributeName="cy"
+        values="75;98;75"
+        dur="4s"
+        repeatCount="indefinite"/>
 
-```
-Software Developer
+    </circle>
 
-<animate
-  attributeName="opacity"
-  values="1;0.35;1"
-  dur="3s"
-  repeatCount="indefinite"/>
-```
 
-  </text>
+    <circle
+      cx="1035"
+      cy="235"
+      r="4"
+      fill="#0284C7"
+      opacity="0.3">
 
-  <!-- Quote -->
+      <animate
+        attributeName="cx"
+        values="1035;1055;1035"
+        dur="3.5s"
+        repeatCount="indefinite"/>
 
-  <g>
+    </circle>
+
+
+    <!-- Code symbols -->
+
+    <g
+      font-family="monospace"
+      font-size="20"
+      font-weight="700"
+      fill="#0284C7"
+      opacity="0.45">
+
+      <text x="170" y="160">
+        &lt;/&gt;
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -12;0 0"
+          dur="3s"
+          repeatCount="indefinite"/>
+
+      </text>
+
+
+      <text x="980" y="160">
+        { }
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 12;0 0"
+          dur="3.5s"
+          repeatCount="indefinite"/>
+
+      </text>
+
+
+      <text x="215" y="245">
+        01
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;8 0;0 0"
+          dur="4s"
+          repeatCount="indefinite"/>
+
+      </text>
+
+
+      <text x="930" y="245">
+        [ ]
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;-8 0;0 0"
+          dur="4s"
+          repeatCount="indefinite"/>
+
+      </text>
+
+    </g>
+
+
+    <!-- Main title -->
+
     <text
       x="600"
-      y="225"
+      y="95"
       text-anchor="middle"
-      font-family="JetBrains Mono, monospace"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="48"
+      font-weight="800"
+      fill="#0F172A">
+
+      Hi, I'm Haikal 👋
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -3;0 0"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </text>
+
+
+    <!-- Accent line -->
+
+    <rect
+      x="480"
+      y="116"
+      width="240"
+      height="4"
+      rx="2"
+      fill="#0284C7">
+
+      <animate
+        attributeName="width"
+        values="180;260;180"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="x"
+        values="510;470;510"
+        dur="3s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+
+    <!-- ================================= -->
+    <!-- TYPEWRITER: SOFTWARE DEVELOPER -->
+    <!-- ================================= -->
+
+    <g
+      clip-path="url(#softwareClip)"
+      font-family="monospace"
+      font-size="22"
+      font-weight="600"
+      fill="#0369A1">
+
+      <text
+        x="488"
+        y="168">
+
+        Software Developer
+
+      </text>
+
+    </g>
+
+
+    <!-- ================================= -->
+    <!-- TYPEWRITER: INFORMATICS STUDENT -->
+    <!-- ================================= -->
+
+    <g
+      clip-path="url(#studentClip)"
+      font-family="monospace"
+      font-size="22"
+      font-weight="600"
+      fill="#0369A1">
+
+      <text
+        x="389"
+        y="168">
+
+        Informatics Engineering Student
+
+      </text>
+
+    </g>
+
+
+    <!-- ================================= -->
+    <!-- TYPEWRITER CURSORS -->
+    <!-- ================================= -->
+
+    <!-- Cursor for Software Developer -->
+    <rect
+      x="488"
+      y="147"
+      width="3"
+      height="25"
+      rx="1.5"
+      fill="#0284C7">
+
+      <animate
+        attributeName="x"
+        values="488;712;712;488"
+        keyTimes="0;0.21;0.37;0.50"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="1;1;0;0"
+        keyTimes="0;0.37;0.50;1"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- Cursor for Informatics Engineering Student -->
+    <rect
+      x="389"
+      y="147"
+      width="3"
+      height="25"
+      rx="1.5"
+      fill="#0284C7"
+      opacity="0">
+
+      <animate
+        attributeName="x"
+        values="389;811;811;389"
+        keyTimes="0.50;0.71;0.87;1"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        keyTimes="0;0.50;0.87;1"
+        dur="8s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+
+  <!-- ================================= -->
+  <!-- QUOTE CONTAINER -->
+  <!-- ================================= -->
+
+  <g filter="url(#shadow)">
+
+    <rect
+      x="430"
+      y="195"
+      width="340"
+      height="58"
+      rx="18"
+      fill="url(#card)"
+      stroke="#7DD3FC"
+      stroke-width="1.5">
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -3;0 0"
+        dur="3.5s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="stroke-opacity"
+        values="0.55;1;0.55"
+        dur="2.5s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+
+    <text
+      x="600"
+      y="231"
+      text-anchor="middle"
+      font-family="monospace"
       font-size="17"
-      font-weight="500"
+      font-weight="600"
       fill="#0E7490">
 
-```
-  ✨ "Ngoding dulu lek 😹" ✨
+      ✨ "Ngoding dulu lek 😹" ✨
 
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    values="0 0; 4 0; 0 0; -4 0; 0 0"
-    dur="4s"
-    repeatCount="indefinite"/>
+      <animate
+        attributeName="opacity"
+        values="0.7;1;0.7"
+        dur="2s"
+        repeatCount="indefinite"/>
 
-  <animate
-    attributeName="opacity"
-    values="0.65;1;0.65"
-    dur="2s"
-    repeatCount="indefinite"/>
-</text>
-```
+    </text>
 
   </g>
 
-  <!-- Floating code symbols -->
-
-<g
- font-family="JetBrains Mono, monospace"
- font-size="20"
- font-weight="700"
- fill="#0284C7"
- opacity="0.5">
-
-```
-<text x="180" y="170">&lt;/&gt;
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    values="0 0; 0 -12; 0 0"
-    dur="3s"
-    repeatCount="indefinite"/>
-</text>
-
-<text x="970" y="165">{ }
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    values="0 0; 0 10; 0 0"
-    dur="3.5s"
-    repeatCount="indefinite"/>
-</text>
-
-<text x="230" y="255">01
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    values="0 0; 8 0; 0 0"
-    dur="4s"
-    repeatCount="indefinite"/>
-</text>
-
-<text x="920" y="255">[ ]
-  <animateTransform
-    attributeName="transform"
-    type="translate"
-    values="0 0; -8 0; 0 0"
-    dur="4s"
-    repeatCount="indefinite"/>
-</text>
-```
 
   </g>
+
 
   <!-- Bottom glow -->
 
-<ellipse
- cx="600"
- cy="300"
- rx="300"
- ry="12"
- fill="#0284C7"
- opacity="0.15"> <animate
-   attributeName="rx"
-   values="260;330;260"
-   dur="4s"
-   repeatCount="indefinite"/> </ellipse> </svg>
+  <ellipse
+    cx="600"
+    cy="303"
+    rx="290"
+    ry="13"
+    fill="#0284C7"
+    opacity="0.13">
+
+    <animate
+      attributeName="rx"
+      values="250;330;250"
+      dur="4s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+
+  <!-- ================================= -->
+  <!-- OCEAN / WAVE -->
+  <!-- ================================= -->
+
+  <path
+    d="
+      M0 292
+      C120 270 210 320 330 298
+      C450 276 530 320 650 298
+      C770 276 850 320 970 298
+      C1080 278 1140 305 1200 288
+      L1200 360
+      L0 360 Z"
+    fill="url(#wave)"
+    opacity="0.75">
+
+    <animate
+      attributeName="d"
+      dur="6s"
+      repeatCount="indefinite"
+      values="
+        M0 292 C120 270 210 320 330 298 C450 276 530 320 650 298 C770 276 850 320 970 298 C1080 278 1140 305 1200 288 L1200 360 L0 360 Z;
+
+        M0 300 C120 320 210 275 330 300 C450 325 530 275 650 300 C770 325 850 275 970 300 C1080 320 1140 280 1200 300 L1200 360 L0 360 Z;
+
+        M0 292 C120 270 210 320 330 298 C450 276 530 320 650 298 C770 276 850 320 970 298 C1080 278 1140 305 1200 288 L1200 360 L0 360 Z
+      "/>
+
+  </path>
+
+
+  <!-- Small wave highlight -->
+
+  <path
+    d="
+      M0 304
+      C130 284 220 328 340 306
+      C460 285 550 328 670 306
+      C790 285 880 328 1000 306
+      C1100 288 1150 315 1200 300"
+    fill="none"
+    stroke="#E0F2FE"
+    stroke-width="3"
+    opacity="0.6">
+
+    <animate
+      attributeName="d"
+      dur="6s"
+      repeatCount="indefinite"
+      values="
+        M0 304 C130 284 220 328 340 306 C460 285 550 328 670 306 C790 285 880 328 1000 306 C1100 288 1150 315 1200 300;
+
+        M0 310 C130 330 220 288 340 310 C460 330 550 288 670 310 C790 330 880 288 1000 310 C1100 328 1150 292 1200 310;
+
+        M0 304 C130 284 220 328 340 306 C460 285 550 328 670 306 C790 285 880 328 1000 306 C1100 288 1150 315 1200 300
+      "/>
+
+  </path>
+
+
+</svg>
+
