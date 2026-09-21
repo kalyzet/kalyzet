@@ -1,3 +1,29 @@
+<div align="center">
+
+<a href="https://github.com/kalyzet">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=42&duration=2800&pause=1200&color=0284C7&center=true&vCenter=true&width=800&height=80&lines=Hi%2C+I'm+Haikal+%F0%9F%91%8B;Software+Developer;Informatics+Engineering+Student"
+    alt="Hi, I'm Haikal"
+  />
+</a>
+
+<br>
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3500&pause=1800&color=06B6D4&center=true&vCenter=true&width=600&height=40&lines=%22Ngoding+dulu+lek+%F0%9F%98%B9%22"
+  alt="Ngoding dulu lek"
+/>
+
+<br><br>
+
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:BAE6FD,50:7DD3FC,100:38BDF8&height=100&section=footer"
+  width="100%"
+  alt=""
+/>
+
+</div>
+
 # What's up! I'm Haikal 👋😎  
 💻 Informatics Engineering Student | Aspiring Software Engineer
 
