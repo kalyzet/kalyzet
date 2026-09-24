@@ -1,6 +1,6 @@
-<div align="center">
+<!-- <div align="center">
   <img src="./hero.svg" width="100%" alt="Hi, I'm Haikal">
-</div>
+</div> -->
 
 
 
